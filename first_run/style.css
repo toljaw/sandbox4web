@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    max-width: 400px;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: black solid 2px;
+}
+
+.row div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: black solid 2px;
+    background-color: greenyellow;
+    gap: 2rem;
+}
