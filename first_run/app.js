@@ -7,17 +7,17 @@ const B3 = document.querySelector(".b3");
 const C1 = document.querySelector(".c1");
 const C2 = document.querySelector(".c2");
 const C3 = document.querySelector(".c3");
-/*
+
 let fieldsColor = {
-    a1: 'red',
-    a2: 'green',
+    a1: 'white',
+    a2: 'white',
     a3: 'white',
     b1: 'white',
-    b2: 'yellow',
+    b2: 'white',
     b3: 'white',
     c1: 'white',
     c2: 'white',
-    c3: 'black'
+    c3: 'white'
 }
     
 function coloring() {
@@ -30,45 +30,140 @@ function coloring() {
     C1.style.backgroundColor = fieldsColor['c1'];
     C2.style.backgroundColor = fieldsColor['c2'];
     C3.style.backgroundColor = fieldsColor['c3'];
-}*/
-//coloring();
+}
+coloring();
+
 
 
 let turn = 'red'
 
 A1.addEventListener('click', function() {
-    if (turn === 'red') {
-        A1.style.backgroundColor = 'red';
-    } else {
-        A1.style.backgroundColor = 'green';
+    if (A1.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            A1.style.backgroundColor = 'red';
+        } else {
+            A1.style.backgroundColor = 'green';
+        }
     }
-    
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
-
 A2.addEventListener('click', function() {
-    A2.style.backgroundColor = "red";
+    if (A2.style.backgroundColor === 'white') {
+        if (turn === 'red') {
+            A2.style.backgroundColor = 'red';
+        } else {
+            A2.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 A3.addEventListener('click', function() {
-    A3.style.backgroundColor = "red";
+    if (A3.style.backgroundColor === 'white') {
+        if (turn === 'red') {
+            A3.style.backgroundColor = 'red';
+        } else {
+            A3.style.backgroundColor = 'green';
+        }
+        if (turn === 'red') {
+            turn = 'green'
+        } else {
+            turn = 'red'
+        }
+    }
 });
 B1.addEventListener('click', function() {
-    B1.style.backgroundColor = "red";
+    if (B1.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            B1.style.backgroundColor = 'red';
+        } else {
+            B1.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 B2.addEventListener('click', function() {
-    B2.style.backgroundColor = "red";
+    if (B2.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            B2.style.backgroundColor = 'red';
+        } else {
+            B2.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 B3.addEventListener('click', function() {
-    B3.style.backgroundColor = "red";
+    if (B3.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            B3.style.backgroundColor = 'red';
+        } else {
+            B3.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 C1.addEventListener('click', function() {
-    C1.style.backgroundColor = "red";
+    if (C1.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            C1.style.backgroundColor = 'red';
+        } else {
+            C1.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 C2.addEventListener('click', function() {
-    C2.style.backgroundColor = "red";
+    if (C2.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            C2.style.backgroundColor = 'red';
+        } else {
+            C2.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
 C3.addEventListener('click', function() {
-    C3.style.backgroundColor = "red";
+    if (C3.style.backgroundColor === "white") {
+        if (turn === 'red') {
+            C3.style.backgroundColor = 'red';
+        } else {
+            C3.style.backgroundColor = 'green';
+        }
+    }
+    if (turn === 'red') {
+        turn = 'green'
+    } else {
+        turn = 'red'
+    }
 });
+
 
 /*
 function moveGreen() {
