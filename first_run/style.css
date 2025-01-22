@@ -1,18 +1,25 @@
+h1 {
+    text-align: center;
+}
 section {
+    margin: 4rem;
     display: flex;
     justify-content: center;
 }
 
 .board {
     max-width: 400px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
 }
 
 .row {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    border: black solid 2px;
 }
 
 .row div {
@@ -21,6 +28,6 @@ section {
     display: flex;
     justify-content: center;
     border: black solid 2px;
-    background-color: greenyellow;
+    background-color: white;
     gap: 2rem;
 }
